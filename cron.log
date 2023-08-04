@@ -1,0 +1,15 @@
+
+[08/04/23 02:25:04] INFO     | batch_prediction.py:29     batch_prediction.py:29
+                             | Loading the test data...
+                    INFO     | batch_prediction.py:32     batch_prediction.py:32
+                             | Loading a pre-trained
+                             pipeline...
+[08/04/23 02:25:05] INFO     | batch_prediction.py:45     batch_prediction.py:45
+                             | Batch prediction for 1074
+                             users is created.
+                    INFO     | batch_prediction.py:50     batch_prediction.py:50
+                             | Prediction can be found in
+                             the following path:
+                              /workspaces/lgcns-mlops-tem
+                             plate/predictions/20230804_r
+                             ent_prediction.csv

@@ -1,0 +1,80 @@
+[2023-08-04 01:30:55,472]	ERROR	 | logger.py:88	| Unexpected exception
+Traceback (most recent call last):
+  File "/workspaces/lgcns-mlops-template/train.py", line 36, in <module>
+    logger.debug('Loading data...')
+AttributeError: module 'src.common.logger' has no attribute 'debug'
+[2023-08-04 01:30:55,641]	ERROR	 | logger.py:91	| Unexpected exception caught!
+[2023-08-04 01:31:54,692]	INFO	 | train.py:41	| Running a preprocess pipeline...
+[2023-08-04 01:31:54,788]	INFO	 | train.py:45	| Saving a feature data into the storage...
+[2023-08-04 01:31:54,834]	INFO	 | train.py:64	| Setting an experiment...
+[2023-08-04 01:31:54,854]	INFO	 | train.py:73	| Run 0 : {'learning_rate': 0.01, 'max_depth': 3, 'max_features': 1.0}
+[2023-08-04 01:32:00,630]	INFO	 | train.py:73	| Run 1 : {'learning_rate': 0.01, 'max_depth': 3, 'max_features': 0.9}
+[2023-08-04 01:32:03,645]	INFO	 | train.py:73	| Run 2 : {'learning_rate': 0.01, 'max_depth': 3, 'max_features': 0.8}
+[2023-08-04 01:32:06,524]	INFO	 | train.py:73	| Run 3 : {'learning_rate': 0.01, 'max_depth': 3, 'max_features': 0.7}
+[2023-08-04 01:32:09,559]	INFO	 | train.py:73	| Run 4 : {'learning_rate': 0.01, 'max_depth': 4, 'max_features': 1.0}
+[2023-08-04 01:32:12,627]	INFO	 | train.py:73	| Run 5 : {'learning_rate': 0.01, 'max_depth': 4, 'max_features': 0.9}
+[2023-08-04 01:32:15,934]	INFO	 | train.py:73	| Run 6 : {'learning_rate': 0.01, 'max_depth': 4, 'max_features': 0.8}
+[2023-08-04 01:32:19,254]	INFO	 | train.py:73	| Run 7 : {'learning_rate': 0.01, 'max_depth': 4, 'max_features': 0.7}
+[2023-08-04 01:32:22,231]	INFO	 | train.py:73	| Run 8 : {'learning_rate': 0.01, 'max_depth': 5, 'max_features': 1.0}
+[2023-08-04 01:32:25,516]	INFO	 | train.py:73	| Run 9 : {'learning_rate': 0.01, 'max_depth': 5, 'max_features': 0.9}
+[2023-08-04 01:32:28,973]	INFO	 | train.py:73	| Run 10 : {'learning_rate': 0.01, 'max_depth': 5, 'max_features': 0.8}
+[2023-08-04 01:32:32,112]	INFO	 | train.py:73	| Run 11 : {'learning_rate': 0.01, 'max_depth': 5, 'max_features': 0.7}
+[2023-08-04 01:32:35,414]	INFO	 | train.py:73	| Run 12 : {'learning_rate': 0.01, 'max_depth': 6, 'max_features': 1.0}
+[2023-08-04 01:32:38,928]	INFO	 | train.py:73	| Run 13 : {'learning_rate': 0.01, 'max_depth': 6, 'max_features': 0.9}
+[2023-08-04 01:32:42,236]	INFO	 | train.py:73	| Run 14 : {'learning_rate': 0.01, 'max_depth': 6, 'max_features': 0.8}
+[2023-08-04 01:32:45,552]	INFO	 | train.py:73	| Run 15 : {'learning_rate': 0.01, 'max_depth': 6, 'max_features': 0.7}
+[2023-08-04 01:32:48,813]	INFO	 | train.py:73	| Run 16 : {'learning_rate': 0.05, 'max_depth': 3, 'max_features': 1.0}
+[2023-08-04 01:32:52,038]	INFO	 | train.py:73	| Run 17 : {'learning_rate': 0.05, 'max_depth': 3, 'max_features': 0.9}
+[2023-08-04 01:32:55,028]	INFO	 | train.py:73	| Run 18 : {'learning_rate': 0.05, 'max_depth': 3, 'max_features': 0.8}
+[2023-08-04 01:32:57,992]	INFO	 | train.py:73	| Run 19 : {'learning_rate': 0.05, 'max_depth': 3, 'max_features': 0.7}
+[2023-08-04 01:33:01,025]	INFO	 | train.py:73	| Run 20 : {'learning_rate': 0.05, 'max_depth': 4, 'max_features': 1.0}
+[2023-08-04 01:33:04,136]	INFO	 | train.py:73	| Run 21 : {'learning_rate': 0.05, 'max_depth': 4, 'max_features': 0.9}
+[2023-08-04 01:33:07,213]	INFO	 | train.py:73	| Run 22 : {'learning_rate': 0.05, 'max_depth': 4, 'max_features': 0.8}
+[2023-08-04 01:33:10,776]	INFO	 | train.py:73	| Run 23 : {'learning_rate': 0.05, 'max_depth': 4, 'max_features': 0.7}
+[2023-08-04 01:33:13,712]	INFO	 | train.py:73	| Run 24 : {'learning_rate': 0.05, 'max_depth': 5, 'max_features': 1.0}
+[2023-08-04 01:33:16,956]	INFO	 | train.py:73	| Run 25 : {'learning_rate': 0.05, 'max_depth': 5, 'max_features': 0.9}
+[2023-08-04 01:33:20,206]	INFO	 | train.py:73	| Run 26 : {'learning_rate': 0.05, 'max_depth': 5, 'max_features': 0.8}
+[2023-08-04 01:33:23,417]	INFO	 | train.py:73	| Run 27 : {'learning_rate': 0.05, 'max_depth': 5, 'max_features': 0.7}
+[2023-08-04 01:33:26,507]	INFO	 | train.py:73	| Run 28 : {'learning_rate': 0.05, 'max_depth': 6, 'max_features': 1.0}
+[2023-08-04 01:33:30,200]	INFO	 | train.py:73	| Run 29 : {'learning_rate': 0.05, 'max_depth': 6, 'max_features': 0.9}
+[2023-08-04 01:33:33,483]	INFO	 | train.py:73	| Run 30 : {'learning_rate': 0.05, 'max_depth': 6, 'max_features': 0.8}
+[2023-08-04 01:33:36,665]	INFO	 | train.py:73	| Run 31 : {'learning_rate': 0.05, 'max_depth': 6, 'max_features': 0.7}
+[2023-08-04 01:33:39,928]	INFO	 | train.py:73	| Run 32 : {'learning_rate': 0.1, 'max_depth': 3, 'max_features': 1.0}
+[2023-08-04 01:33:42,912]	INFO	 | train.py:73	| Run 33 : {'learning_rate': 0.1, 'max_depth': 3, 'max_features': 0.9}
+[2023-08-04 01:33:46,053]	INFO	 | train.py:73	| Run 34 : {'learning_rate': 0.1, 'max_depth': 3, 'max_features': 0.8}
+[2023-08-04 01:33:48,952]	INFO	 | train.py:73	| Run 35 : {'learning_rate': 0.1, 'max_depth': 3, 'max_features': 0.7}
+[2023-08-04 01:33:51,974]	INFO	 | train.py:73	| Run 36 : {'learning_rate': 0.1, 'max_depth': 4, 'max_features': 1.0}
+[2023-08-04 01:33:56,892]	INFO	 | train.py:73	| Run 37 : {'learning_rate': 0.1, 'max_depth': 4, 'max_features': 0.9}
+[2023-08-04 01:34:04,728]	INFO	 | train.py:73	| Run 38 : {'learning_rate': 0.1, 'max_depth': 4, 'max_features': 0.8}
+[2023-08-04 01:34:13,535]	INFO	 | train.py:73	| Run 39 : {'learning_rate': 0.1, 'max_depth': 4, 'max_features': 0.7}
+[2023-08-04 01:34:19,314]	INFO	 | train.py:73	| Run 40 : {'learning_rate': 0.1, 'max_depth': 5, 'max_features': 1.0}
+[2023-08-04 01:34:22,720]	INFO	 | train.py:73	| Run 41 : {'learning_rate': 0.1, 'max_depth': 5, 'max_features': 0.9}
+[2023-08-04 01:34:25,977]	INFO	 | train.py:73	| Run 42 : {'learning_rate': 0.1, 'max_depth': 5, 'max_features': 0.8}
+[2023-08-04 01:34:29,151]	INFO	 | train.py:73	| Run 43 : {'learning_rate': 0.1, 'max_depth': 5, 'max_features': 0.7}
+[2023-08-04 01:34:32,428]	INFO	 | train.py:73	| Run 44 : {'learning_rate': 0.1, 'max_depth': 6, 'max_features': 1.0}
+[2023-08-04 01:34:35,866]	INFO	 | train.py:73	| Run 45 : {'learning_rate': 0.1, 'max_depth': 6, 'max_features': 0.9}
+[2023-08-04 01:34:39,210]	INFO	 | train.py:73	| Run 46 : {'learning_rate': 0.1, 'max_depth': 6, 'max_features': 0.8}
+[2023-08-04 01:34:42,625]	INFO	 | train.py:73	| Run 47 : {'learning_rate': 0.1, 'max_depth': 6, 'max_features': 0.7}
+[2023-08-04 01:34:48,036]	INFO	 | train.py:130	| Best hyper-parameter: {'max_features': '0.8', 'max_depth': '4', 'learning_rate': '0.05'}
+[2023-08-04 02:09:01,843]	INFO	 | batch_prediction.py:29	| Loading the test data...
+[2023-08-04 02:09:01,944]	ERROR	 | logger.py:88	| Unexpected exception
+Traceback (most recent call last):
+  File "/workspaces/lgcns-mlops-template/batch_prediction.py", line 32, in <module>
+    logger.ingo('Loading a pre-trained pipeline...')
+AttributeError: 'Logger' object has no attribute 'ingo'
+[2023-08-04 02:09:02,000]	ERROR	 | logger.py:91	| Unexpected exception caught!
+[2023-08-04 02:11:26,460]	INFO	 | batch_prediction.py:29	| Loading the test data...
+[2023-08-04 02:11:26,477]	INFO	 | batch_prediction.py:32	| Loading a pre-trained pipeline...
+[2023-08-04 02:11:27,320]	INFO	 | batch_prediction.py:45	| Batch prediction for 1074 users is created.
+[2023-08-04 02:11:27,333]	INFO	 | batch_prediction.py:50	| Prediction can be found in the following path:
+ /workspaces/lgcns-mlops-template/predictions/20230804_rent_prediction.csv
+[2023-08-04 02:19:22,838]	INFO	 | batch_prediction.py:29	| Loading the test data...
+[2023-08-04 02:19:22,848]	INFO	 | batch_prediction.py:32	| Loading a pre-trained pipeline...
+[2023-08-04 02:19:22,973]	INFO	 | batch_prediction.py:45	| Batch prediction for 1074 users is created.
+[2023-08-04 02:19:22,978]	INFO	 | batch_prediction.py:50	| Prediction can be found in the following path:
+ /workspaces/lgcns-mlops-template/predictions/20230804_rent_prediction.csv
+[2023-08-04 02:25:04,850]	INFO	 | batch_prediction.py:29	| Loading the test data...
+[2023-08-04 02:25:04,860]	INFO	 | batch_prediction.py:32	| Loading a pre-trained pipeline...
+[2023-08-04 02:25:05,063]	INFO	 | batch_prediction.py:45	| Batch prediction for 1074 users is created.
+[2023-08-04 02:25:05,072]	INFO	 | batch_prediction.py:50	| Prediction can be found in the following path:
+ /workspaces/lgcns-mlops-template/predictions/20230804_rent_prediction.csv

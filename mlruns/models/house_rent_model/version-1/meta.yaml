@@ -1,0 +1,13 @@
+aliases: []
+creation_timestamp: 1691109719899
+current_stage: None
+description: ''
+last_updated_timestamp: 1691109719899
+name: house_rent_model
+run_id: 82314f7325dc4c31bae3b101cb6f7025
+run_link: ''
+source: file:///workspaces/lgcns-mlops-template/mlruns/306462394777949343/82314f7325dc4c31bae3b101cb6f7025/artifacts/model
+status: READY
+status_message: null
+user_id: null
+version: 1

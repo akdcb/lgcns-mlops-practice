@@ -30,7 +30,7 @@ def extract_floor(floor_info: str) -> int:
     # else:
     #     f = int(f_info)
     # return f
-    return int(f_info) if f_info.is_numeric() else 0
+    return int(f_info) if f_info.isnumeric() else 0
 
 
 def floor_extractor(df: pd.DataFrame, col: str) -> pd.DataFrame:

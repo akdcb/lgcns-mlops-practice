@@ -29,14 +29,17 @@ def get_file_handler(
     Returns:
         logging.handlers.TimedRotatingFileHandler: 로그 저장 파일 핸들러 객체
     """
+    # 자정 기준, 하루마다 30개씩 백업
     file_handler = logging.handlers.TimedRotatingFileHandler(
         log_path, when="midnight", interval=1, backupCount=30, encoding="utf-8"
     )
     file_handler.suffix = "logs-%Y%m%d"
     # TODO: 파일 핸들러의 기본 수준을 INFO로 설정
-    
+    file_handler.setLevel(logging.INFO)
+
     # TODO: 파일 핸들러의 포맷을 FILE_HANDLER_FORMAT으로 설정
-    
+    file_handler.setFormatter(logging.Formatter(FILE_HANDLER_FORMAT))
+
     return file_handler
 
 
@@ -51,19 +54,22 @@ def set_logger(log_path: str = LOG_FILEPATH) -> logging.Logger:
     """
     logging.basicConfig(
         level="NOTSET",
-        format=RICH_FORMAT,
+        format=RICH_FORMAT,  # 요즘 유명한거? loguru
         handlers=[RichHandler(rich_tracebacks=True)],
     )
 
     logger = logging.getLogger("rich")
-    
+
     # TODO: 로거의 기본 수준을 DEBUG 설정
-    
+    logger.setLevel(logging.DEBUG)
+
     # TODO: 기본 로거에 위에서 만든 파일 핸들러를 추가
-    
+    logger.addHandler(get_file_handler(log_path))
+
     return logger
 
 
+# 코드 전체에 대해 try문 적용하는 거 매우 비추. 그냥 아래 함수 가져다 쓰면 에러 위치 알아서 찾아줌
 def handle_exception(exc_type, exc_value, exc_traceback):
     """Exception을 처리하는 함수입니다.
     이미 선언된 `logger`가 있을 때, 해당 `logger` 정보를 가져와서
