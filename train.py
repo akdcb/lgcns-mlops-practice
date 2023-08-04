@@ -51,9 +51,9 @@ if __name__ == "__main__":
     )
 
     params_candidates = {
-        "learning_rate": [0.01, 0.05, 0.1],
-        "max_depth": [3, 4, 5, 6],
-        "max_features": [1.0, 0.9, 0.8, 0.7],
+        "learning_rate": [0.1],
+        "max_depth": [6],
+        "max_features": [0.7],
     }
 
     param_set = get_param_set(params=params_candidates)
@@ -133,6 +133,8 @@ if __name__ == "__main__":
         best_model_uri.replace("file://", ""),
         ARTIFACT_PATH,
     )
+
+    print(best_model_uri)
 
     # BentoML에 모델 저장
     bentoml.sklearn.save_model(

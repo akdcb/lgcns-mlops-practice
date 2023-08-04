@@ -78,3 +78,69 @@ AttributeError: 'Logger' object has no attribute 'ingo'
 [2023-08-04 02:25:05,063]	INFO	 | batch_prediction.py:45	| Batch prediction for 1074 users is created.
 [2023-08-04 02:25:05,072]	INFO	 | batch_prediction.py:50	| Prediction can be found in the following path:
  /workspaces/lgcns-mlops-template/predictions/20230804_rent_prediction.csv
+[2023-08-04 04:36:59,175]	INFO	 | train.py:39	| Running a preprocess pipeline...
+[2023-08-04 04:36:59,286]	INFO	 | train.py:43	| Saving a feature data into the storage...
+[2023-08-04 04:36:59,325]	INFO	 | train.py:61	| Setting an experiment...
+[2023-08-04 04:36:59,354]	INFO	 | train.py:69	| Run 0 : {'learning_rate': 0.01, 'max_depth': 3, 'max_features': 1.0}
+[2023-08-04 04:37:04,924]	INFO	 | train.py:69	| Run 1 : {'learning_rate': 0.01, 'max_depth': 3, 'max_features': 0.9}
+[2023-08-04 04:37:08,543]	INFO	 | train.py:69	| Run 2 : {'learning_rate': 0.01, 'max_depth': 3, 'max_features': 0.8}
+[2023-08-04 04:37:11,823]	INFO	 | train.py:69	| Run 3 : {'learning_rate': 0.01, 'max_depth': 3, 'max_features': 0.7}
+[2023-08-04 04:37:14,821]	INFO	 | train.py:69	| Run 4 : {'learning_rate': 0.01, 'max_depth': 4, 'max_features': 1.0}
+[2023-08-04 04:37:18,161]	INFO	 | train.py:69	| Run 5 : {'learning_rate': 0.01, 'max_depth': 4, 'max_features': 0.9}
+[2023-08-04 04:37:21,423]	INFO	 | train.py:69	| Run 6 : {'learning_rate': 0.01, 'max_depth': 4, 'max_features': 0.8}
+[2023-08-04 04:37:24,687]	INFO	 | train.py:69	| Run 7 : {'learning_rate': 0.01, 'max_depth': 4, 'max_features': 0.7}
+[2023-08-04 04:37:27,972]	INFO	 | train.py:69	| Run 8 : {'learning_rate': 0.01, 'max_depth': 5, 'max_features': 1.0}
+[2023-08-04 04:37:31,319]	INFO	 | train.py:69	| Run 9 : {'learning_rate': 0.01, 'max_depth': 5, 'max_features': 0.9}
+[2023-08-04 04:37:34,585]	INFO	 | train.py:69	| Run 10 : {'learning_rate': 0.01, 'max_depth': 5, 'max_features': 0.8}
+[2023-08-04 04:37:37,819]	INFO	 | train.py:69	| Run 11 : {'learning_rate': 0.01, 'max_depth': 5, 'max_features': 0.7}
+[2023-08-04 04:37:41,025]	INFO	 | train.py:69	| Run 12 : {'learning_rate': 0.01, 'max_depth': 6, 'max_features': 1.0}
+[2023-08-04 04:37:44,586]	INFO	 | train.py:69	| Run 13 : {'learning_rate': 0.01, 'max_depth': 6, 'max_features': 0.9}
+[2023-08-04 04:37:48,036]	INFO	 | train.py:69	| Run 14 : {'learning_rate': 0.01, 'max_depth': 6, 'max_features': 0.8}
+[2023-08-04 04:37:51,463]	INFO	 | train.py:69	| Run 15 : {'learning_rate': 0.01, 'max_depth': 6, 'max_features': 0.7}
+[2023-08-04 04:37:54,663]	INFO	 | train.py:69	| Run 16 : {'learning_rate': 0.05, 'max_depth': 3, 'max_features': 1.0}
+[2023-08-04 04:37:57,982]	INFO	 | train.py:69	| Run 17 : {'learning_rate': 0.05, 'max_depth': 3, 'max_features': 0.9}
+[2023-08-04 04:38:01,127]	INFO	 | train.py:69	| Run 18 : {'learning_rate': 0.05, 'max_depth': 3, 'max_features': 0.8}
+[2023-08-04 04:38:04,158]	INFO	 | train.py:69	| Run 19 : {'learning_rate': 0.05, 'max_depth': 3, 'max_features': 0.7}
+[2023-08-04 04:38:07,004]	INFO	 | train.py:69	| Run 20 : {'learning_rate': 0.05, 'max_depth': 4, 'max_features': 1.0}
+[2023-08-04 04:38:10,439]	INFO	 | train.py:69	| Run 21 : {'learning_rate': 0.05, 'max_depth': 4, 'max_features': 0.9}
+[2023-08-04 04:38:13,669]	INFO	 | train.py:69	| Run 22 : {'learning_rate': 0.05, 'max_depth': 4, 'max_features': 0.8}
+[2023-08-04 04:38:16,748]	INFO	 | train.py:69	| Run 23 : {'learning_rate': 0.05, 'max_depth': 4, 'max_features': 0.7}
+[2023-08-04 04:38:20,099]	INFO	 | train.py:69	| Run 24 : {'learning_rate': 0.05, 'max_depth': 5, 'max_features': 1.0}
+[2023-08-04 04:38:23,535]	INFO	 | train.py:69	| Run 25 : {'learning_rate': 0.05, 'max_depth': 5, 'max_features': 0.9}
+[2023-08-04 04:38:26,898]	INFO	 | train.py:69	| Run 26 : {'learning_rate': 0.05, 'max_depth': 5, 'max_features': 0.8}
+[2023-08-04 04:38:30,097]	INFO	 | train.py:69	| Run 27 : {'learning_rate': 0.05, 'max_depth': 5, 'max_features': 0.7}
+[2023-08-04 04:38:33,239]	INFO	 | train.py:69	| Run 28 : {'learning_rate': 0.05, 'max_depth': 6, 'max_features': 1.0}
+[2023-08-04 04:38:36,801]	INFO	 | train.py:69	| Run 29 : {'learning_rate': 0.05, 'max_depth': 6, 'max_features': 0.9}
+[2023-08-04 04:38:40,252]	INFO	 | train.py:69	| Run 30 : {'learning_rate': 0.05, 'max_depth': 6, 'max_features': 0.8}
+[2023-08-04 04:38:43,733]	INFO	 | train.py:69	| Run 31 : {'learning_rate': 0.05, 'max_depth': 6, 'max_features': 0.7}
+[2023-08-04 04:38:47,074]	INFO	 | train.py:69	| Run 32 : {'learning_rate': 0.1, 'max_depth': 3, 'max_features': 1.0}
+[2023-08-04 04:38:50,078]	INFO	 | train.py:69	| Run 33 : {'learning_rate': 0.1, 'max_depth': 3, 'max_features': 0.9}
+[2023-08-04 04:38:53,178]	INFO	 | train.py:69	| Run 34 : {'learning_rate': 0.1, 'max_depth': 3, 'max_features': 0.8}
+[2023-08-04 04:38:56,178]	INFO	 | train.py:69	| Run 35 : {'learning_rate': 0.1, 'max_depth': 3, 'max_features': 0.7}
+[2023-08-04 04:38:59,005]	INFO	 | train.py:69	| Run 36 : {'learning_rate': 0.1, 'max_depth': 4, 'max_features': 1.0}
+[2023-08-04 04:39:02,498]	INFO	 | train.py:69	| Run 37 : {'learning_rate': 0.1, 'max_depth': 4, 'max_features': 0.9}
+[2023-08-04 04:39:05,617]	INFO	 | train.py:69	| Run 38 : {'learning_rate': 0.1, 'max_depth': 4, 'max_features': 0.8}
+[2023-08-04 04:39:08,644]	INFO	 | train.py:69	| Run 39 : {'learning_rate': 0.1, 'max_depth': 4, 'max_features': 0.7}
+[2023-08-04 04:39:11,847]	INFO	 | train.py:69	| Run 40 : {'learning_rate': 0.1, 'max_depth': 5, 'max_features': 1.0}
+[2023-08-04 04:39:15,174]	INFO	 | train.py:69	| Run 41 : {'learning_rate': 0.1, 'max_depth': 5, 'max_features': 0.9}
+[2023-08-04 04:39:18,776]	INFO	 | train.py:69	| Run 42 : {'learning_rate': 0.1, 'max_depth': 5, 'max_features': 0.8}
+[2023-08-04 04:39:22,031]	INFO	 | train.py:69	| Run 43 : {'learning_rate': 0.1, 'max_depth': 5, 'max_features': 0.7}
+[2023-08-04 04:39:25,203]	INFO	 | train.py:69	| Run 44 : {'learning_rate': 0.1, 'max_depth': 6, 'max_features': 1.0}
+[2023-08-04 04:39:28,669]	INFO	 | train.py:69	| Run 45 : {'learning_rate': 0.1, 'max_depth': 6, 'max_features': 0.9}
+[2023-08-04 04:39:32,025]	INFO	 | train.py:69	| Run 46 : {'learning_rate': 0.1, 'max_depth': 6, 'max_features': 0.8}
+[2023-08-04 04:39:35,633]	INFO	 | train.py:69	| Run 47 : {'learning_rate': 0.1, 'max_depth': 6, 'max_features': 0.7}
+[2023-08-04 04:39:41,852]	INFO	 | train.py:126	| Best hyper-parameter: {'max_features': '0.8\n', 'max_depth': '4\n', 'learning_rate': '0.05\n'}
+[2023-08-04 04:53:34,821]	INFO	 | train.py:39	| Running a preprocess pipeline...
+[2023-08-04 04:53:35,018]	INFO	 | train.py:43	| Saving a feature data into the storage...
+[2023-08-04 04:53:35,116]	INFO	 | train.py:61	| Setting an experiment...
+[2023-08-04 04:53:35,136]	INFO	 | train.py:69	| Run 0 : {'learning_rate': 0.1, 'max_depth': 6, 'max_features': 0.7}
+[2023-08-04 04:53:42,008]	INFO	 | train.py:126	| Best hyper-parameter: {'max_features': '0.8\n', 'max_depth': '4\n', 'learning_rate': '0.05\n'}
+[2023-08-04 05:33:42,260]	INFO	 | drift_detection.py:109	| Detect data drift
+[2023-08-04 05:33:53,063]	INFO	 | drift_detection.py:41	| The following test failed!
+Feature Drift: Failed for 3 out of 8 columns.
+Found 3 categorical columns with Cramer's V above threshold: {'area_type': '0.23', 'city': '0.21', 'point_of_contact': '0.31'}
+[2023-08-04 05:33:53,070]	INFO	 | drift_detection.py:41	| The following test failed!
+Label Drift: Label's drift score Kolmogorov-Smirnov is 0.25
+[2023-08-04 05:33:53,072]	INFO	 | drift_detection.py:41	| The following test failed!
+Multivariate Drift: Found drift value of: 0.42, corresponding to a domain classifier AUC of: 0.71
+[2023-08-04 05:33:56,548]	INFO	 | drift_detection.py:118	| Detect model drift
